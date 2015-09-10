@@ -10,7 +10,3 @@ CHANGES
 
 git rm -rf src/google.golang.org/cloud/examples
 git rm -rf src/google.golang.org/api/examples
-edit src/golang.org/x/oauth2/google/appenginevm.go
-  // +build appenginevm !appengine -> // +build appenginevm,!appengine
-edit src/google.golang.org/cloud/datastore/query.go
-  // fix issue #104 on lines 402 and 543
